@@ -27,5 +27,7 @@ public interface NewstudentinfoMapper {
     int updateByPrimaryKeySelective(Newstudentinfo record);
 
     int updateByPrimaryKey(Newstudentinfo record);
+    
+    void save(Newstudentinfo record);
 
 }
